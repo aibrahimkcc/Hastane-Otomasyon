@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Hastane_Otomasyon_
 {
-    public partial class Form1 : Form
+    public partial class frmDoktorgiris : Form
     {
-        public Form1()
+        public frmDoktorgiris()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            frmHastagiris fr =new frmHastagiris();
-            fr.Show();
-            this.Hide();
         }
     }
 }

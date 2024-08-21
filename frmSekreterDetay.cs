@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace Hastane_Otomasyon_
 {
-    public partial class Form1 : Form
+    public partial class frmSekreterDetay : Form
     {
-        public Form1()
+        public frmSekreterDetay()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
-            frmHastagiris fr =new frmHastagiris();
-            fr.Show();
-            this.Hide();
+
         }
     }
 }

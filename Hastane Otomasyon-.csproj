@@ -52,8 +52,101 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBilgiDüzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBilgiDüzenle.Designer.cs">
+      <DependentUpon>frmBilgiDüzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoktorBilgiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoktorBilgiDuzenle.Designer.cs">
+      <DependentUpon>frmDoktorBilgiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoktorDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoktorDetay.Designer.cs">
+      <DependentUpon>frmDoktorDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoktorgiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoktorgiris.Designer.cs">
+      <DependentUpon>frmDoktorgiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDuyurular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuyurular.Designer.cs">
+      <DependentUpon>frmDuyurular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHastaDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHastaDetay.Designer.cs">
+      <DependentUpon>frmHastaDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHastagiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHastagiris.Designer.cs">
+      <DependentUpon>frmHastagiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHastaKayıt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHastaKayıt.Designer.cs">
+      <DependentUpon>frmHastaKayıt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSekreterDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSekreterDetay.Designer.cs">
+      <DependentUpon>frmSekreterDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSekreterGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSekreterGiris.Designer.cs">
+      <DependentUpon>frmSekreterGiris.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBilgiDüzenle.resx">
+      <DependentUpon>frmBilgiDüzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDoktorBilgiDuzenle.resx">
+      <DependentUpon>frmDoktorBilgiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDoktorDetay.resx">
+      <DependentUpon>frmDoktorDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDoktorgiris.resx">
+      <DependentUpon>frmDoktorgiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDuyurular.resx">
+      <DependentUpon>frmDuyurular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHastaDetay.resx">
+      <DependentUpon>frmHastaDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHastagiris.resx">
+      <DependentUpon>frmHastagiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHastaKayıt.resx">
+      <DependentUpon>frmHastaKayıt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSekreterDetay.resx">
+      <DependentUpon>frmSekreterDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSekreterGiris.resx">
+      <DependentUpon>frmSekreterGiris.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
